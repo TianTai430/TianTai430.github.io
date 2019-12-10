@@ -78,11 +78,11 @@ var guest_info = 'nick,mail,link'.split(',').filter(function(item){
 guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
 
 window.valine = new Valine({
-  el:'#vcomment',
+  el:' #vcomment',
   notify:notify,
   verify:verify,
-  appId:'n0yCRJcX8f78l0DDxhKWsSNh-gzGzoHsz# leancloud application app id',
-  appKey:'7f0GcorYpW1aoQvhXh5FOP1R# leancloud application app key',
+  appId:'n0yCRJcX8f78l0DDxhKWsSNh-gzGzoHsz',
+  appKey:'7f0GcorYpW1aoQvhXh5FOP1R',
   placeholder:'说点什么吧~',
   avatar:'monsterid',
   guest_info:guest_info,
